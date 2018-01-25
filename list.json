@@ -323,6 +323,17 @@
         "location": "https://hub.docker.com/r/colinhuang/ubuntu-libreoffice/", 
         "type": "docker"
     }, 
+     {
+        "description": "The official build of Jenkins.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/jenkins_icon.png", 
+        "displayName": "JenkinsLTS", 
+        "name": "jenkinslts", 
+        "version": "latest", 
+        "location": "https://hub.docker.com/r/jenkins/jenkins/", 
+        "type": "docker"
+    }, 
     {
         "description": "The official build of Jenkins.", 
         "repository": "dockerhub", 
@@ -330,8 +341,8 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/jenkins_icon.png", 
         "displayName": "Jenkins", 
         "name": "jenkins", 
-        "version": "lts", 
-        "location": "https://hub.docker.com/r/jenkins/jenkins/", 
+        "version": "latest", 
+        "location": "https://hub.docker.com/_/jenkins/", 
         "type": "docker"
     }, 
     {
